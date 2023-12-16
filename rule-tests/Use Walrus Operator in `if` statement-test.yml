@@ -1,0 +1,9 @@
+id: Use Walrus Operator in `if` statement
+valid:
+- if a := foo():
+    do_bar()
+invalid:
+- a = foo()
+
+if a:
+    do_bar()
